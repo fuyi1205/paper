@@ -1,0 +1,511 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 13px;
+    line-height: 1.5;
+    font-family: Roboto,"PingFang SC","Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 805px;
+    color: #fff;
+    background: url("img/homepage-hero2.jpg") no-repeat 40% 30%;
+    background-size: cover;
+}
+
+#v-desktop{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 67px;
+    background: #ff4338;
+}
+
+.center-container{
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#v-desktop #navbar-header{
+    float: left;
+}
+
+#v-desktop #navbar-header a.header-logo{
+    display: block;
+    width: 140px;
+    height: 67px;
+    text-decoration: none;
+    background: url("img/landing-logo.svg") 50% 50% no-repeat;
+}
+
+#v-desktop  #navbar-right{
+    float: right;
+    line-height: 67px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#navbar-right a{
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar-right a:nth-child(1){
+    left: -60px;
+}
+
+#navbar-right a:nth-child(2),#navbar-right a:nth-child(3){
+    margin-right: 20px;
+    padding: 7px 12px;
+    font-weight: normal;
+    border: 1px solid #fff;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.3);
+}
+
+#navbar-right a:nth-child(2):hover,#navbar-right a:nth-child(3):hover{
+    opacity: 0.5;
+}
+
+#header-container{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    width: 560px;
+    height: 515px;
+    padding: 30px 80px;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+}
+
+#header-container  h1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#header-container h3{
+    margin-bottom: 30px;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    opacity: .9;
+}
+
+#header-container button, #bottom button{
+    margin-bottom: 50px;
+    padding: 20px 70px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: #ff4338;
+    border: none;
+}
+
+#header-container button:hover, #bottom button:hover{
+    background: #f00;
+}
+
+#header-container div{
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 20px;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#body{
+    width: 100%;
+}
+
+#join{
+    width: 100%;
+    height: 74px;
+    color: #fff;
+    background: rgba(0,0,0,0.9);
+}
+
+#join .center-container>span, #body section:nth-child(1) .center-container>a{
+    display: inline-block;
+    line-height: 74px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#join .center-container>span{
+    width: 83.33333333%;
+    font-size: 23px;
+}
+
+#join .center-container>a{
+    width: 16.66666666%;
+}
+
+#join .center-container>a span{
+    padding: 8px 70px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+#join .center-container>a span:hover{
+    opacity: 0.5;
+}
+
+#teacher{
+    width: 100%;
+    height: 1143px;
+    padding-bottom: 70px;
+}
+
+#teacher-header{
+    width: 100%;
+    height: 185px;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#teacher-header p{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+#teacher-header p span{
+    color: #ff4338;
+}
+
+#teacher-photos{
+    width: 100%;
+    cursor: pointer;
+}
+
+#teacher-photos a{
+    float: left;
+    display: block;
+    padding: 0 11px;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0,0,0);
+}
+
+#teacher-photos a.row1{
+    width: 33.33%;
+    height: 267px;
+}
+
+#teacher-photos a.row2{
+    width: 25%;
+    height: 228px;
+}
+
+#teacher-photos a.row3{
+    width: 20%;
+    height: 197px;
+}
+
+#teacher-photos a.row4{
+    width: 16.66%;
+    height: 146px;
+}
+
+#teacher-photos a>div{
+    width: 100%;
+    margin-bottom: 22px;
+    background-size: cover!important;
+}
+
+#teacher-photos a.row1>div{
+    height: 245px;
+}
+
+#teacher-photos a.row2>div{
+    height: 206px;
+}
+
+#teacher-photos a.row3>div{
+    height: 175px;
+}
+
+#teacher-photos a.row4>div{
+    height: 124px;
+}
+
+#teacher-photos .info{
+    width: 100%;
+    height: 100%;
+    padding: 40% 15px 10px 15px;
+}
+
+.language{
+    font-size: 30px;
+}
+
+.country{
+    font-size: 20px;
+}
+
+#more-teachers{
+    width: 100%;
+    height: 50px;
+    padding: 0 11px;
+    font-size: 22px;
+    line-height: 50px;
+    color: #fff;
+}
+
+#more-teachers span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+}
+
+#schedule{
+    width: 100%;
+    height: 809px;
+    padding: 70px 0;
+    text-align: center;
+    color: #fff;
+    background: #ff7b73;
+}
+
+.section-header{
+    margin-bottom: 40px;
+}
+
+.section-header p{
+    width: 100%;
+    font-size: 50px;
+    font-weight: 300!important;
+}
+
+.section-header span{
+    font-size: 23px;
+}
+
+div.section-col{
+    float: left;
+    width: 33.33%;
+    padding: 0 11px;
+}
+
+div.section-col img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+#schedule div.section-col{
+    height: 470px;
+}
+
+#schedule .step{
+    padding: 0 30px;
+}
+
+#schedule h3{
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#schedule .step span{
+    font-size: 15px;
+}
+
+#marketing{
+    width: 100%;
+    height: 879px;
+    padding-bottom: 70px;
+    text-align: center;
+    color: #fff;
+    background: #424242;
+}
+
+#marketing .center-container, #student .center-container{
+    padding: 70px 15px 0 15px;
+}
+
+#marketing .section-col>div:first-child{
+    width: 100%;
+    height: 400px;
+    background-size: cover!important;
+}
+
+#marketing .marketing-info{
+    width: 100%;
+    height: 180px;
+    padding: 30px;
+    color: #000;
+    background: #fff;
+}
+
+.marketing-info h3{
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.marketing-info span{
+    font-size: 15px;
+}
+
+#student{
+    width: 100%;
+    height: 1400px;
+    padding-bottom: 70px;
+    text-align: center;
+    color: #000;
+    background: #F1F1F1;
+}
+
+.student-row{
+    margin: 40px 0;
+    padding: 30px 0;
+    background: #fff;
+    overflow: hidden;
+}
+
+.student-row p{
+    margin: 10px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+#student .student-row .section-col:nth-child(2){
+    margin-left: 8.33%;
+}
+
+#student .student-row .section-col:nth-child(3){
+    margin-left: 16.66%;
+}
+
+.student-row .section-col img{
+    width: 100px;
+    height: 100px;
+}
+
+.student-row .section-col h3{
+    margin: 20px 0 10px 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.student-row .section-col span{
+    font-size: 15px;
+}
+
+.student-row .section-col:nth-child(4), .student-row .section-col:nth-child(5), .student-row .section-col:nth-child(6){
+    margin-top: 100px;
+}
+
+#bottom{
+    position: relative;
+    padding: 200px 0;
+    color: #fff;
+    text-align: center;
+    background: url('img/homepage-bottom.jpg');
+    background-size: cover;
+}
+
+#bottom .center-container>div{
+    width: 390px;
+}
+
+#bottom p{
+    margin-bottom: 40px;
+}
+
+#bottom p:nth-child(1){
+    font-size: 50px;
+    line-height: 50px;
+}
+
+#bottom p:nth-child(2){
+    font-size: 16px;
+}
+
+footer{
+    width: 100%;
+    height: 424px;
+    background: #202020;
+}
+
+footer .center-container{
+    padding: 20px 15px;
+}
+
+footer .row2{
+    float: left;
+    width: 25%;
+    padding: 0 11px;
+}
+
+footer h4{
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+footer ul{
+    color: #ccc;
+    list-style: none;
+}
+
+footer ul li{
+    cursor: pointer;
+}
+
+footer ul li:hover, #footer-info>div:nth-child(1) a:hover{
+    color: #fff;
+}
+
+#share{
+    margin-top: 30px;
+}
+
+#share li{
+    float: left;
+    margin-right: 10px;
+}
+
+#footer-info{
+    margin-bottom: 22px;
+    padding: 20px 11px;
+}
+
+#footer-info>div{
+    float: left;
+}
+
+#footer-info>div:nth-child(1){
+    width: 16.66%;
+}
+
+#footer-info>div:nth-child(2){
+    width: 83.33%;
+}
+
+#footer-info>div:nth-child(1) a{
+    padding: 5px 20px;
+    font-size: 14px;
+    color: #848484;
+    background: #333;
+    cursor: pointer;
+}
+
+#footer-info li{
+    float: left;
+    margin: 5px;
+}
